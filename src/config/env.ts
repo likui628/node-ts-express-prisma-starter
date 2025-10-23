@@ -12,7 +12,7 @@ try {
   envVars = envVarsSchema.parse(process.env)
 } catch (error) {
   if (error instanceof z.ZodError) {
-    const formattedErrors = error.errors
+    const formattedErrors = error.issues
       .map((err) => `${err.path.join('.')} - ${err.message}`)
       .join('\n')
 

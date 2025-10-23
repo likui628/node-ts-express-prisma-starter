@@ -14,7 +14,7 @@ export function errorHandler(
 ) {
   let errorMessage
   if (err instanceof ZodError) {
-    errorMessage = err.errors.map((e) => `${e.path}: ${e.message}`).join('')
+    errorMessage = err.issues.map((e) => `${e.path}: ${e.message}`).join('')
   } else if (err instanceof Error) {
     errorMessage = err.message
   }

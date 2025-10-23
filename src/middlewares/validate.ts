@@ -9,7 +9,7 @@ export function validate(schema: ZodSchema) {
         body: req.body,
         params: req.params,
         query: req.query,
-      })
+      }) as { params?: unknown; query?: unknown; body?: unknown }
       const { params, query, body } = validatedRequest
       Object.assign(req, { params, query, body })
       next()
