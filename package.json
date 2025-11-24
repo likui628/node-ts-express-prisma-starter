@@ -40,7 +40,7 @@
     "passport-jwt": "^4.0.1",
     "winston": "^3.18.3",
     "winston-daily-rotate-file": "^5.0.0",
-    "zod": "^4.1.12"
+    "zod": "^4.1.13"
   },
   "devDependencies": {
     "@faker-js/faker": "^10.1.0",
@@ -51,11 +51,11 @@
     "@types/jest": "^30.0.0",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/morgan": "^1.9.10",
-    "@types/node": "^24.10.0",
+    "@types/node": "^24.10.1",
     "@types/passport": "^1.0.17",
     "@types/passport-jwt": "^4.0.1",
     "@types/supertest": "^6.0.3",
-    "@typescript-eslint/eslint-plugin": "^8.46.3",
+    "@typescript-eslint/eslint-plugin": "^8.48.0",
     "@typescript-eslint/parser": "^8.32.1",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
@@ -63,7 +63,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.4",
     "jest": "^30.2.0",
-    "nodemon": "^3.1.10",
+    "nodemon": "^3.1.11",
     "prettier": "^3.6.2",
     "prisma": "^6.19.0",
     "supertest": "^7.1.4",
